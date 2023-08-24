@@ -1,0 +1,144 @@
+body {
+    background-color: #ECF9FF;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+table {
+    background-color: white;
+    border-radius: 7px;
+}
+
+th,
+td {
+    padding: 0.1rem 0rem 0.2rem 1rem;
+    text-align: left;
+}
+
+td {
+    font-weight: 500;
+}
+
+th {
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+}
+
+
+/* Classes */
+.bmishadow {
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px #0000006f;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.bmi-cal {
+    /* box-shadow: 0px 0px 5px #0000006f;
+    border-radius: 10px; */
+    width: 75%;
+    text-align: center;
+}
+
+.units {
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.unit {
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.unit:hover {
+    background-color: #B0DAFF;
+    /* background-color: rgba(55, 0, 255, 0.5); */
+    border-radius: 5px 5px 0px 0px;
+    color: aliceblue;
+}
+
+.input-div {
+    /* background-color: rgba(55, 0, 255, 0.329); */
+    background-color: #B0DAFF;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.bg {
+    background-color: #B0DAFF;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.dis {
+    display: none;
+}
+
+.bmi-table-head1 {
+    background-color: #e9ecef;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.bmi-table-head2 {
+    background-color: #e9ecef;
+    border-radius: 0px 5px 0px 0px;
+}
+
+.bmi-border {
+    border-right: 1px solid black;
+}
+
+.result {
+    padding-top: 0.5rem;
+    padding-bottom: 0.375rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.card-body {
+    text-align: left;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    color: white;
+    background-color: #040D12;
+}
+
+#bmi-sugg {
+    text-align: left;
+}
+
+@media (max-width: 576px) {
+    .bmi-cal {
+        width: 90%;
+    }
+}
+
+@media (max-width: 990px) {
+    .col1 {
+        margin-top: 30px;
+    }
+}
