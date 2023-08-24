@@ -2,6 +2,8 @@
 
 A BMI (Body Mass Index) calculator that allows users to input their weight and height, either in metric or standard units, to calculate their BMI value and determine their weight status category.
 
+Click Here 👉 : [BMI Calculator](https://sramakrishnaa.github.io/BMI-Calculator/)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
